@@ -10,8 +10,11 @@ The key of this project was to learn how to use analog input of ESP8266 with emb
 #### Water level sensor:
 ##### Pinouts:
 ![water level sensor pinouts](/images/Water-Level-Sensor-Pinout.png "water level sensor pinouts.")
+
+VCC can be supplied by voltage from 3.3V to 5V
 ##### Logic:
 The series of exposed parallel conductors, together acts as a variable resistor (kind of like a potentiometer) whose resistance varies according to the water level.
+
 ![water level sensor work](/images/Water-Level-Sensor-Working.gif "water level sensor work.")
 
 #### ESP8266:
